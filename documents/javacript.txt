@@ -1,0 +1,73 @@
+ha értéket hasonlítunk össze tömbbel akkor az elsõ elemet figyeli a tömbbõl, ha stringet hasonlítunk számmal össze, úgy is kijöhet az érték
+false 0 true 1 de sohasem több szám. Mert a többnél már nem fordítható logikaira
+if rövidítése: 
+(kifejezés ? "igazág": "hamis ág") 
+Igaz értéknek számít a " " ami egy space a "" üres string meg nem
+undefined == operátorral egyenlõ null, minden undefined ami létre van hozva de nincs értéke
+NaN not a number, nem lehet kettõt összehasonlítani szóval egy NaN és NaN nem ugyanaz me pl +"alma"==+"körte" nem ugyanaz mégis mind a kettõ NaN (azé lesz az me a + számmá kasztol)
+=== típusos összhas ahol a null és az undefined nem ugyanaz se a 3 és a "3"  mivel típus szerint
++"325" számmá kaszt
+""+ 3343 szöveggé kaszt
+!!241 logikai értékké kasztolás (! vagyis egy darab felkiáltójel az ellentét)
+lehet így is kasztolni:
+Number(3231)
+String("a")
+érdekesség: 
+a new Number(45)==45el
+viszont a new Number(45) == new Number(45) -el nem egyenlõ mert más memterületen lévõ ojjektumok
+typeof 241 típust ad meg
+objektumot {} hozunk létre
+
+css : {selected: $root.selected() == $data} ez figyeli h melyik van kiválasztva és odabassza a selected formt
+
+			<!-- ko if: false -->
+			<div class="editor field">
+				<h2>cukker</h2>
+				<input type="range" />
+			</div>
+			<!-- /ko -->
+
+Pontosan csak ennyivel mûködik!!! mármint a kommentben a ko if
+observszar áttekint40-42. perc környékén
+observer nem küldd vissza adatot a szervernek mert baszott mód egy fv, így át kell alakítani 
+node js h a javascript kiszabaduljon kicsit a böngészõbõ, és a megszabott keretei közül, elérhetjük a fájlrendszert, illetve egy webszervert is el tudunk készíteni
+nodeban a file system modullal (fs) fájlokat tudunk elérni
+callback függvényeknél az elsõ paraméter az err mint error
+ENOENT error no entry
+
+fs.readFile("test.txt", function(err, data){
+    if (err) {
+            console.log(err);
+        }
+    else{
+            console.log(data);  
+        }
+    
+    }); így csak binárisan olvassa be a fájlt
+fs.readFile("test.txt",{ encoding: "utf8"}, function(err, data){ 
+
+így meg szövegként
+200az statuskód a minden rendben
+
+var express = require("express"),
+    app = express(); ez egyenlõ ezzel
+var express = require("express");
+   var app = express();
+
+LACIvindó onlódhoz rendelt esemény csak az oldal betöltõdése után léphet akcióba (minden szar betöltõdött, pl képek, frameek, stysheet)
+eccerûbb alkalmazásokhoz
+
+DOMContentLoaded
+akko lép érvénybe, ha a web doksi betöltõdöttttttttttttttttt
+
+ attachEvent,
+ez is egy kekszplóreres marhaság, a függvény akko kerül meghívásra ha tüzel az esemény, pl kimegy a kerbe és begyújtja az õszi leveleket és gallyakat. 
+
+ addEventListener ja ez is internet kekszplórer 9, az elõzõ marhasága. regisztrál?? egy esemény kezelõt egy megadott eseményhez
+
+most csináld meg úgy, hogy a html-bõl kiveszed az onclick="magic()" dolgokat, és a default.js-ben rendeld hozzá a gombokhoz
+
+
+
+
+
