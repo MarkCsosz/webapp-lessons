@@ -1,5 +1,27 @@
-ha értéket hasonlítunk össze tömbbel akkor az elsõ elemet figyeli a tömbbõl, ha stringet hasonlítunk számmal össze, úgy is kijöhet az érték
+alapok basics
+var jelentése variant vagyis variáns, vagyis váltohtat a típusa menet közben
+
+
+5+5 sima összeadás, az eredmény 10
+nature addition, the result 10
+"5"+"5" összefûzés, mivel így nem szám, eredmény: 55 string
+concatenation, because they aren't numbers, result 55 string
+
+összehasonlítás comparison
+
+
+ha értéket hasonlítunk össze tömbbel a tömböt elsõ körben szöveggé alakítja, aztán az interpreter megpróbálja értékké alakítani
+pl 5 == ["5"]
+elõször 5== "5"
+aztán 5==5   Szpészektõl eltekint
+["5"]==[5] false, nem egyeznek, azért mert két tömbrõl van szó, nem lehet azonos az értéke, mert más memória területen vannak
+ stringet hasonlítunk számmal össze, úgy is kijöhet az érték (vagyis 22=="22" true akárhány spacet rakhatunk a " "ba, pl =="   22")
 false 0 true 1 de sohasem több szám. Mert a többnél már nem fordítható logikaira
+
+
+if we comparing a value and an array, the 
+
+
 if rövidítése: 
 (kifejezés ? "igazág": "hamis ág") 
 Igaz értéknek számít a " " ami egy space a "" üres string meg nem
