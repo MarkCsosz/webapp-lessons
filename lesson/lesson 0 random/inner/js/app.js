@@ -16,10 +16,10 @@ function write(nums){
 //a tööömb
 function numbers(){
     var nums=[];
-    nums[0]=random(1,91);
+    nums[0]=random(1,6);
     for(var i=1; i<5; i++){
         do{
-                nums[i]=random(1,91);
+                nums[i]=random(1,6);
                 var egyenlo=false;
                 for(var j=0; j<i; j++){
                     if (nums[j]==nums[i]) {

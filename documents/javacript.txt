@@ -18,6 +18,8 @@ aztán 5==5   Szpészektõl eltekint
  stringet hasonlítunk számmal össze, úgy is kijöhet az érték (vagyis 22=="22" true akárhány spacet rakhatunk a " "ba, pl =="   22")
 false 0 true 1 de sohasem több szám. Mert a többnél már nem fordítható logikaira
 
+var x = "Volvo" + 16 + 4;
+var x = 16 + 4 + "Volvo";  soros kiértékelés balról jobbra
 
 if we comparing a value and an array, the 
 
