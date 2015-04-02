@@ -26,8 +26,9 @@ function numbers(num) {
         }
         while (equal == true);
     }
-    num.sort();
+    num.sort(sortNumber);
     console.log(num);
+
 
 }
 //linear seaching function with two params, the numbers and input number
@@ -71,4 +72,7 @@ function write(num) {
     for (var i = 0; i < 5; i++) {
         document.getElementById(i).innerHTML = num[i];
     }
+}
+function sortNumber(a,b) {
+    return a - b;
 }
