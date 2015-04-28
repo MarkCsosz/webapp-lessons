@@ -11,5 +11,3 @@
  + Saját szavaiddal fogalmazd meg, mit jelent a típúskényszerítés.
  + Saját szavaiddal fogalmazd meg, mit jelent a kacsa típusosság (duck typing).
  + Írj egy függvényt, amely tetszőleges számú paramétert elfogad, és a tömb típusú paraméterek elemeinek a metszetét adja vissza.
-
-(bocs a magyarért, nem volt idegzetem lefordítani ezt mind angolra. Majd egyszer...)

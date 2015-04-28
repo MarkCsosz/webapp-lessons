@@ -32,13 +32,13 @@ tárold külön változókban. Minden példány rendelkezzen a következő adatt
 2. Helyezd el a létrehozott objektumokat egy tömbben, majd rendezd a tömböt a
 gyártás éve szerinti csökkenő sorrendbe. A rendezett tömböt írasd ki a konzolra.
 
-3. Mik az előnyei/hátrányai a literáléis formának JS objektumok esetén?
+3. Mik az előnyei/hátrányai a literális formának JS objektumok esetén?
 
 4. Készíts **konstruktort**, ami `Car` típusú objektumokat hoz létre! Adattagjai
 legyenek ugyanazok, mint az első feladatban megadott literálnak. A konstruktorban
 csak az autó márkájának és modelljének megadása legyen kötelező.
 
-5. Írd át a `toString` metódusokat úgy, hogy benne le legyenek beégetve az
+5. Írd át a `toString` metódusokat úgy, hogy benne ne legyenek beégetve az
 ominózus értékek!
 
 6. Oldd meg, hogy minden `Car` objektum egy `Vehicle` nevű "absztrakt osztályból"
@@ -86,6 +86,6 @@ szerinti csökkenő sorrendbe. Írd ki konzolra.
 14. Az `Engine` osztályhoz utólag adj hozzá egy függvényt, amely a kilowattban
 megadott teljesítményt átkonvertálja lóerőre!
 
-15. A kizárólag autóket tartalmazó tömb külön módosítása nélkül hívd meg az előző
+15. A kizárólag autókat tartalmazó tömb külön módosítása nélkül hívd meg az előző
 feladatban megírt függvényt a tömb minden elemének motorjára. Működik / nem
 működik? Miért? (próbáld meg saját szavaiddal elmagyarázni)

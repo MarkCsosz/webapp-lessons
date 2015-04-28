@@ -175,7 +175,7 @@
  + Saját szavaiddal fogalmazd meg, mit jelent a típúskényszerítés.
  
 	Jó volt, amit leírtál. A lényeg, hogy ha két különböző típussal akarunk műveletet végezni, akkor az eltérő
-	típusokat kényszerití az interpreter olyan köntösbe, amilyenben a mávelet elvégezhető. (ezért alakít át egy
+	típusokat kényszerití az interpreter olyan köntösbe, amilyenben a művelet elvégezhető. (ezért alakít át egy
 	számot stringgé, hogy az összefűzés működhessen)
  
  + Saját szavaiddal fogalmazd meg, mit jelent a kacsa típusosság (duck typing).
@@ -184,7 +184,7 @@
 	
 	![Duck typing](http://mike-ward.net/cdn/images/blog/2014-12-05-friday-links-332/duck-typing.jpg)
 	
-	> Ha látok egy madarat, ami úgy megy, mint egy kacsa, úgy úszik, mint egy kacsa és úgy hápog, mint egy kacsa, akkor az a madár kacsa.[Wikipédia][wp-ducktyping]
+	> Ha látok egy madarat, ami úgy megy, mint egy kacsa, úgy úszik, mint egy kacsa és úgy hápog, mint egy kacsa, akkor az a madár kacsa.[wp-ducktyping][Wikipédia]
 	
 	Eszerint egy adattípus **metódusai és változói határozzák meg annak viselkedését**, és nem az, hogy melyik alaposztályból származik, vagy milyen interfészt valósít meg.
 	
@@ -195,7 +195,7 @@
 				return "vau-vau";
 			},
 			megy: function() {
-				return "négy lábon járok."
+				return "négy lábon járok.";
 			}
 		};
 	
@@ -212,7 +212,7 @@
 		Kutya.ugat();
 		
 		// Az Ember objektum is megy és ugat, az ember tehát kutya?
-		// JavaScript-ben technikailag igen, ezt jelenti a kacsí típusosság.
+		// JavaScript-ben technikailag igen, ezt jelenti a kacsa típusosság.
 		Ember.ugat();
 		
 
