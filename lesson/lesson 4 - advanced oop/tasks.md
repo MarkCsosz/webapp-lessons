@@ -76,8 +76,8 @@ ez a lecke remélhetőleg ugyanolyan tanulságos lesz, mint az eddigiek.
  8. Adj hozzá a `VehicleContainer` osztályhoz egy `filterByType` metódust! A metódus bemenő
     paramétere legyen egy **konstruktor**. A függvény feladata, hogy a `VehicleContainer` példányban
     azokat az elemeket adja vissza, melyek példányai a paraméterként megadott konstruktornak!
- 9. Az előző feladatot egészítsd ki úgy, hogy a függvény `VehicleArray` típusú változót adjon vissza.
-    eredményül!
+ 9. Az előző feladatot egészítsd ki úgy, hogy a függvény `VehicleContainer` típusú változót adjon
+    vissza eredményül!
  10. Egészítsd ki a `Vehicle` osztály konstruktorát egy **statikus változóval**, amely azt számolja,
     hogy a konstruktor hány alkalommal lett meghívva! A változó neve legyen `count`.
  11. Kérdezd le a `Vehicle.count` változót. Mi lesz az értéke? Miért?
@@ -88,12 +88,15 @@ ez a lecke remélhetőleg ugyanolyan tanulságos lesz, mint az eddigiek.
         - `Car`
         - `Motorcycle`
         - `Bike`
+        - `Wartburg353`
+        - `RenaultFluence`
+        - `MitsubishiLancer`
     - `Helpers` - ebben legyenek a _segédfüggvények_
         - `getPrototypeChain`, `randInt`, és a többiek
     - `UI` (egyelőre legyen üres)
     - `API` (egyelőre legyen üres)
     
-    Az összes definíció **csak a névtereken belül legyen elérhető!** (azaz ne tudjam meghavni a
+    Az összes definíció **csak a névtereken belül legyen elérhető!** (azaz ne tudjam meghívni a
     `new Vehicle()` kódot, csak így: `new Models.Vehicle()`.)
 
 ### Tippek
