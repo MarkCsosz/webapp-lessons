@@ -6,7 +6,7 @@ var Helpers = {
             obj = Object.getPrototypeOf(obj);
             if (obj != null) {
                 temp = obj;
-                objTemp.push(temp);
+                objTemp.push(temp.constructor);
             } else {
                 objTemp.push("null");
             }
